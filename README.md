@@ -1,6 +1,6 @@
 # BOOKMYDJ Landing
 
-Mini site statique public pour presenter BOOKMYDJ, fournir une URL au portail SoundCloud Developer et preparer les pages utiles pour App Store / Google Play.
+Mini site statique public pour presenter BOOKMYDJ et preparer les pages utiles pour App Store / Google Play.
 
 ## Pages
 
@@ -15,12 +15,6 @@ Mini site statique public pour presenter BOOKMYDJ, fournir une URL au portail So
 3. Activer GitHub Pages dans `Settings > Pages` avec `Deploy from a branch`, branche `main`, dossier `/root`.
 4. Utiliser l'URL publique GitHub Pages comme website SoundCloud et comme URL support/confidentialite App Store.
 
-## URL SoundCloud
+## SoundCloud
 
-Dans SoundCloud Developer, utiliser l'URL publique de la landing dans le champ Website.
-
-Pour OAuth mobile, ajouter aussi le redirect URI de l'app :
-
-```text
-bookmydj://soundcloud-callback
-```
+Le MVP utilise des liens SoundCloud publics ajoutes manuellement par les DJs. Aucun compte Artist Pro, OAuth SoundCloud ou secret API n'est requis pour afficher les lecteurs integres.
